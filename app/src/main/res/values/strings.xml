@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AntiTheft4Car</string>
+    <string name="title_video">Video</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_gps">Gps</string>
+
+    <string name="btn_on">Capture</string>
+    <string name="btn_search">Search</string>
+    <string name="t1">Date :</string>
+    <string name="t2">Time :</string>
+    <string name="eg">[Select a date]</string>
+    <string name="eg2">[Select a time]</string>
+    <string name="nope">No Image Found On That Day and Time!</string>
+
+    <!--Login-->
+    <string name="emailTxt">Email</string>
+    <string name="passwordTxt">Password</string>
+    <string name="signUpbtn">Sign in or register</string>
+    <string name="loginBtn">Login</string>
+
+    <!--Login-->
+    <string name="regemailTxt">Email</string>
+    <string name="regpasswordTxt">Password</string>
+    <string name="registerBtn">Register</string>
+
+    <string name="addCar">Add Car</string>
+
+    <string name="etrCode">Enter car code to add car</string>
+    <string name="addcarbtn">Add Car</string>
+    <string name="title_activity_tracking">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

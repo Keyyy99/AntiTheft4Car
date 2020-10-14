@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCarActivity">
+
+    <TextView
+        android:id="@+id/code_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:gravity="center"
+        android:text="@string/etrCode"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="137dp" />
+
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/code_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cursorVisible="true"
+        app:forceKeyboard="true"
+        app:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/code_tv"
+        app:pinHeight="40dp"
+        app:pinLength="6"
+        app:pinWidth="35dp">
+
+    </com.goodiebag.pinview.Pinview>
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/addcarbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code_tv"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

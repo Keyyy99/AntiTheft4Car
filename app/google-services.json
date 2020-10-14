@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "165465714188",
+    "firebase_url": "https://antitheft4car.firebaseio.com",
+    "project_id": "antitheft4car",
+    "storage_bucket": "antitheft4car.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165465714188:android:1e5ae7caa40e578b6ac829",
+        "android_client_info": {
+          "package_name": "com.example.antitheft4car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165465714188-d2pc4fu10cp33m4t377f9d8mrmdnisnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.antitheft4car",
+            "certificate_hash": "3a62edd40514a2fe88a339df5f5ab56bf80bfd11"
+          }
+        },
+        {
+          "client_id": "165465714188-iqsrice2t8ohsc4a2b1jnb3qnd1l06b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcDeEomG1hKqbFJ0t99KW1LLeiKs6wWFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165465714188-iqsrice2t8ohsc4a2b1jnb3qnd1l06b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
